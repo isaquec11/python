@@ -1,0 +1,5 @@
+print('Olá seja bem-vindo ao aluguel de carros, 1 dia = R$60,00 || 1 km = R$0,15')
+dias = int(input('Deseja alugar por quantos dias? '))
+km = float(input('Rodou por quantos km? '))
+valor = (dias * 60) + (km * 0.15)
+print('O total a pagar é R${:.2f}'.format(valor))
